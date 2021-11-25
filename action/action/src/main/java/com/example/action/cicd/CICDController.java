@@ -11,6 +11,6 @@ public class CICDController {
 
     @GetMapping("/")
     public ResponseEntity<String> printMyName(){
-        return ResponseEntity.ok().body("Nuwera Mohammad 1213");
+        return ResponseEntity.ok().body("Nuwera Mohammad");
     }
 }
